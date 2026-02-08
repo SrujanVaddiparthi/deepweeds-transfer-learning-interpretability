@@ -81,3 +81,70 @@ The broader goal is to bridge **perception and action** — enabling interpretab
 
 ## Repository Structure
 
+├── notebooks/
+│ ├── EDA.ipynb
+│ └── training_and_evaluation.ipynb
+├── data/
+│ └── (not included)
+├── environment.yml
+├── report/
+│ └── Fine-Tuning CNNs for Weed Species Classification.pdf
+└── README.md
+
+
+---
+
+## Setup
+
+``bash
+conda env create -f env.yml
+conda activate weed-classification
+jupyter notebook
+
+
+---
+
+
+## References
+
+1. Chattopadhyay, A. (2018). Grad-CAM++: Generalized Gradient-Based Visual Explanations for Deep 
+Convolutional Networks. 2018 IEEE Winter Conference on Applications of Computer Vision 
+(WACV). https://doi.org/10.1109/WACV.2018.00097 
+
+2. He, K. (2016). Deep Residual Learning for Image Recognition. arXiv. 
+https://doi.org/10.48550/arXiv.1512.03385 
+
+3. Kirillov, A. (2023). Segment Anything. https://arxiv.org/abs/2304.02643 
+
+4. Kundu, N. (2021). IoT and Interpretable Machine Learning Based Framework for Disease Prediction in 
+Pearl Millet. National Library of Medicine. 
+
+5. Muhammad, M. (2021). Eigen-CAM: Visual Explanations for Deep Convolutional Neural Networks. 
+10.1007/s42979-021-00449-3 
+
+6. Olsen, S. R. (2019). DeepWeeds: A Multiclass Weed Species Image Dataset for Deep Learning. Scientific 
+Report. https://doi.org/10.1038/s41598-018-38343-3 
+
+7. Precision Weed Control Group and Sydney Informatics Hub, the University of Sydney. (n.d.). Weed-AI: A 
+repository of Weed Images in Crops. Weed-AI: A repository of Weed Images in Crops. 
+https://weed-ai.sydney.edu.au/ 
+
+8. PyTorch. (n.d.). Resnet ImageNet normalization. 
+https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.resnet50.html#torchvi
+sion.models.ResNet50_Weights 
+
+9. Selvaraju, R. R. (2017). Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based 
+Localization. IEEE Xplore. 10.1109/ICCV.2017.74 
+
+10. Singhi, S. (2024). Strengthening Interpretability: An Investigative Study of Integrated Gradient Methods. 
+https://arxiv.org/html/2409.09043v1 
+
+11. Zhang, J. (2020). Segmenting Purple Rapeseed Leaves in the Field from UAV RGB Imagery Using Deep 
+Learning as an Auxiliary Means for Nitrogen Stress Detection. ResearchGate. 
+10.3390/rs12091403 
+
+
+
+
+
+
