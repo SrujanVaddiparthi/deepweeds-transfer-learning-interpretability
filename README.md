@@ -81,15 +81,16 @@ The broader goal is to bridge **perception and action** — enabling interpretab
 
 ## Repository Structure
 
-├── notebooks/
-│ ├── EDA.ipynb
-│ └── training_and_evaluation.ipynb
-├── data/
-│ └── (not included)
-├── environment.yml
-├── report/
-│ └── Fine-Tuning CNNs for Weed Species Classification.pdf
-└── README.md
+- notebooks/
+  EDA.ipynb
+  training_and_evaluation.ipynb
+- data/
+  (not included)
+- environment.yml
+- EDA.ipynb - jupyter notebook used to develop the project
+- report/
+  Fine-Tuning CNNs for Weed Species Classification.pdf
+- README.md
 
 
 ---
