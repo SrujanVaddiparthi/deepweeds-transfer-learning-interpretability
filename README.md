@@ -87,10 +87,12 @@ The broader goal is to bridge **perception and action** — enabling interpretab
   Fine-Tuning CNNs for Weed Species Classification.pdf
 - project_proposal/
   Initial project proposal detailing the motive and future trajectories.
+- lit_rev/
+  Research papers reviewed to develop this project.
 - data/
   (not included)
 - environment.yml
-- EDA.ipynb - jupyter notebook used to develop the project
+- EDA.ipynb - jupyter notebook used to develop the project.
 - README.md
 
 
