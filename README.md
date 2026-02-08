@@ -96,10 +96,14 @@ The broader goal is to bridge **perception and action** — enabling interpretab
 
 ## Setup
 
-```bash
+``bash
 conda env create -f env.yml
 conda activate weed-classification
 jupyter notebook
+
+
+---
+
 
 ## References
 
